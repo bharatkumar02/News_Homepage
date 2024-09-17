@@ -50,16 +50,16 @@ function App() {
             <section className="bg-gray-900 text-gray-100 p-5 lg:w-[35%]">
               <h2 className="text-yellow-400 font-bold text-4xl pb-5">New</h2>
               <ul className="flex flex-col justify-center items-start gap-6 *:flex *:flex-col *:justify-center *:items-start *:border-b *:border-gray-400 *:pb-6 *:gap-1">
-                <li>
-                  <h3 className="text-lg font-bold">Hydrogen VS Electric Cars</h3>
+                <li className="group">
+                  <h3 className="text-lg font-bold group-hover:text-yellow-400 transition-all duration-300 ease-in-out">Hydrogen VS Electric Cars</h3>
                   <p className="text-gray-400">Will hydrogen-fueled cars ever catch up to EVs?</p>
                 </li>
-                <li>
-                  <h3 className="text-lg font-bold">The Downsides of AI Artistry</h3>
+                <li className="group">
+                  <h3 className="text-lg font-bold group-hover:text-yellow-400 transition-all duration-300 ease-in-out">The Downsides of AI Artistry</h3>
                   <p className="text-gray-400">What are the possible adverse effects of on-demand AI image generation?</p>
                 </li>
-                <li className="border-none pb-0">
-                  <h3 className="text-lg font-bold">Is VC Funding Drying Up?</h3>
+                <li className="border-none pb-0 group">
+                  <h3 className="text-lg font-bold group-hover:text-yellow-400 transition-all duration-300 ease-in-out">Is VC Funding Drying Up?</h3>
                   <p className="text-gray-400">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
                 </li>
               </ul>
